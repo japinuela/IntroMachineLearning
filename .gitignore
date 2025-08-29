@@ -1,0 +1,39 @@
+# Archivos y directorios de Python
+./__pycache__/
+./mglearn/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+
+# Archivos de configuración de Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de test/coverage
+.coverage
+*.cover
+.pytest_cache/
+
+# Cache de librerías
+.cache/
+mglearn/__pycache__/__init__.cpython-313.pyc
+mglearn/__pycache__/plot_helpers.cpython-313.pyc
+mglearn/__pycache__/plot_interactive_tree.cpython-313.pyc
+mglearn/__pycache__/plot_linear_svc_regularization.cpython-313.pyc
+mglearn/__pycache__/plots.cpython-313.pyc
+__pycache__/preamble.cpython-313.pyc
